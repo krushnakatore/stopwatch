@@ -1,0 +1,33 @@
+body {
+  background-color: #d3dedc;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.stopwatchWrapper {
+  font-size: 50px;
+  border-radius: 10px;
+  margin: auto;
+  color: #da1212;
+}
+.stopwatchWrapper > span {
+  background-color: #f4fcd9;
+}
+.stopwatchWrapper span:nth-child(1) {
+  border-radius: 10px 0 0 10px;
+}
+.stopwatchWrapper span:nth-child(4) {
+  border-radius: 0 10px 10px 0;
+}
+.stopwatchWrapperButton > button {
+  margin: 10px;
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  background-color: #0e185f;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
